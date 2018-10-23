@@ -3,7 +3,9 @@ Another todo list with multiple client support.
 
 Scope:
 
-Create, read, update, and delete todolist items in multiple clients including a web browser, Android, or IOS.
+Create, read, update, and delete todolist items in multiple clients including a web browser, Android, or IOS.  Initial work will be:
+- create a new project for each part below.
+- create and modify each layer as required.
 
 
 Description:
