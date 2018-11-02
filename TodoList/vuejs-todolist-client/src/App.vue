@@ -18,7 +18,6 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <!-- use router-link component for navigation. -->
-            <li><router-link to="/about">About</router-link></li>
             <li><router-link to="/contact">Contact</router-link></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -34,14 +33,12 @@
 </template>
 
 <script>
-import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Home from './components/Home.vue'
 
 export default {
   name: 'app',
   components: {
-    About,
     Contact,
     Home,
   }
@@ -59,5 +56,9 @@ export default {
 }
 [v-cloak] {
     display: none;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
 }
 </style>

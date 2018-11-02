@@ -2,7 +2,7 @@
   <div class="container">
     <h1>{{ msg }}</h1>
 
-    <div>home</div>
+    <h1>Home</h1>
 
     <TodoList></TodoList>
 
