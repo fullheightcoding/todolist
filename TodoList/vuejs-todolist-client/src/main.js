@@ -7,13 +7,11 @@ Vue.use(VueRouter)
 
 // Import the components that will be used in our routes
 import Home from './components/Home.vue'
-import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 
 // Create an array of routes for components
 const routes = [
   { path: '/home', component: Home, name: 'Home' },
-  { path: '/about', component: About, name: 'About' },
   { path: '/contact', component: Contact, name: 'Contact' }
 ]
 
